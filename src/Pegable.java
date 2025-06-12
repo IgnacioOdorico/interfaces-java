@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface Pegable {
+public interface Pagable {
+    int calcularTotal();
 }

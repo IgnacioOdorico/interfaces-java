@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface PagoConDescuento {
+public interface PagoConDescuento extends Pago{
+    void aplicarDescuento(double porcentaje);
 }

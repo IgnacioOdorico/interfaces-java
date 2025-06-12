@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public interface Pago {
+    void procesarPago(double monto);
 }
